@@ -15,8 +15,22 @@ body{
   font-size: 1.05rem;
   color: rgb(15, 11, 12);
   height: 300px;
-  background: url("./assets/covid4.jpeg") center fixed;
+  background: url("./assets/covid4.jpeg")  fixed;
   background-repeat: no-repeat;
   background-size: 1200px 300px ;
-
+  margin-top: 50px;
+}
+#jum{
+  margin-top: 100px;
+  padding: 50px;
+}
+#jum h1{
+  background-color: bisque;
+  opacity: .65;
+  width: 500px;
+}
+#jum p{
+  background-color: bisque;
+  opacity: .65;
+  width: 500px;
 }

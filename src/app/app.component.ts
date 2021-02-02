@@ -27,7 +27,7 @@ export class AppComponent {
   }
 
   getCoronaData(){
-    alert(this.country)
+    // alert(this.country)
     this.corona.getCoronaRealTimeData(this.country).subscribe((data)=>{
       console.log(data)
       var index = data.length - 1

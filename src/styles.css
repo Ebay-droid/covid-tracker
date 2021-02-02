@@ -1,4 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
 body{
-  background-image: linear-gradient(230deg,AntiqueWhite,Azure,BurlyWood);
+  background-image: linear-gradient(270deg,rgb(152, 137, 221),Azure,rgb(135, 187, 222));
+  height: 100%;
 }

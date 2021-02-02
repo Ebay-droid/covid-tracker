@@ -1,13 +1,55 @@
 <div class="container">
-  <h1> Corona Virus Stats</h1>
-  <label for="country">Country</label>
-  <select (change)="getCountry($event.target.value)">
-    <option *ngFor="let country of countries" value="{{country.Slug}}">{{country.Country}}</option>
-  </select>
-  <br>
-  <button class="btn btn-info" (click)="getCoronaData()">Get Corona virus data</button>
-  <br><br>
-  <h2>Total Confirmed cases: {{confirmed}} </h2><hr>
-  <h2>Total Recovery cases: {{recovered}} </h2><hr>
-  <h2>Total Death cases: {{deaths}} </h2><hr>
-</div>
+  <div class="jumbo">
+    <h1>CoronaVirus(COVID-19)</h1>
+    <p><em>Caring for you is caring for me.</em></p>
+  </div>
+  <div class="row">
+      <div class="col-md-8">
+     
+        <h1>What is Corona Virus?</h1>
+        <p>COVID-19 is the disease caused by a new coronavirus called SARS-CoV-2.  
+          WHO first learned of this new virus on 31 December 2019, 
+          following a report of a cluster of cases of ‘viral pneumonia’ in Wuhan, 
+          People’s Republic of China.</p>
+          <hr>
+          <h2>The Symptoms:</h2>
+          <p>The most common symptoms are:</p>
+          <ul>
+            <li>Fever</li>
+            <li>Dry cough</li>
+            <li>Fatigue</li>
+          </ul>
+          <hr>
+          <p>Other symptoms that are less common and may affect some patients include:</p>
+          <ul>
+            <li>Loss of taste or smell,</li>
+            <li>Nasal congestion,</li>
+            <li>Conjunctivitis (also known as red eyes)</li>
+            <li>Sore throat,</li>
+            <li>Headache,</li>
+            <li>Muscle or joint pain,</li>
+            <li>Different types of skin rash,</li>
+            <li>Nausea or vomiting,</li>
+            <li>Diarrhea,</li>
+            <li>Chills or dizziness.</li>
+          </ul>
+      </div>
+
+
+      <div class="col-md-4">
+        <div class="stats">
+            <h1 class=""> Corona Virus Statistics Today</h1>
+            <label for="country">Country</label>
+            <select class="md-form" (change)="getCountry($event.target.value)">
+              <option *ngFor="let country of countries" value="{{country.Slug}}">{{country.Country}}</option>
+            </select>
+            <br>
+            <button class="btn btn-info" (click)="getCoronaData()">Get Corona virus data</button>
+            <br><br>
+            <h2>Total Confirmed cases: <b>{{confirmed}}</b> </h2><hr>
+            <h2>Total Recovery cases: <b>{{recovered}}</b> </h2><hr>
+            <h2>Total Death cases: <b>{{deaths}}</b> </h2><hr>
+        </div>
+      </div>
+  </div>
+  </div>

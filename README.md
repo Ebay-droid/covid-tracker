@@ -1,27 +1,26 @@
-# Covid
+# Project Title:  Covid
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.2.
+## Author:
+Ebenezer Gakuo
 
-## Development server
+## Description
+This simple app was created by consuming the Covid19 api to give the daily statistics  of  corona virus infections, recoveries and deaths in any country.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Technology used
+1. This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.2.
+2. HTML
+3. Material Design Bootstrap - for the design
+4. CSS
+5. Git and GIthub for version control
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Installation
+1. To access the application click on the link on the description.
+2.  Fork this repository by clicking the fork icon on the top left. After forking you can run the application locally on your machine by running `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Build
+## contacts
+Email: gakuoebenezer@gmail.com
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
